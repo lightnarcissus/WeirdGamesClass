@@ -1,0 +1,780 @@
+(dp0
+S'buildDestination'
+p1
+VC:\u005cUsers\u005cAnsh Patel\u005cDesktop\u005cA Day in a Life.html
+p2
+sS'saveDestination'
+p3
+VC:\u005cUsers\u005cAnsh Patel\u005cDesktop\u005cA Day in the Life.tws
+p4
+sS'metadata'
+p5
+(dp6
+sS'target'
+p7
+S'sugarcane'
+p8
+sS'storyPanel'
+p9
+(dp10
+S'widgets'
+p11
+(lp12
+(dp13
+S'selected'
+p14
+I01
+sS'pos'
+p15
+(lp16
+I10
+aI10
+asS'passage'
+p17
+(itiddlywiki
+Tiddler
+p18
+(dp20
+S'text'
+p21
+V<<print either("You are resting. You are lying down.","You just woke up to a new day. You are alone on your bed.","You look up at the ceiling. It's dark.", "You think about the day ahead. You feel heavy.", "You see your phone light up in the dark. You ignore it.")>>\u000a\u000a<<timedinsert 1.5s>> <<print either("You are tired.", "You feel sleepy.", "You cannot sleep.", "You feel feverish.")>> <<endtimedinsert>>\u000a<<timedinsert 2.5s>><<if visited() <=5>>\u000a[[I should get up|Start]]\u000a<<endif>>\u000a<<if visited() >5>>\u000a<<hoverreplace>>[[Time to face the world|Get up]]<<becomes>>[[Guess I have to get up|Get up]]<<endhoverreplace>>\u000a<<endif>><<endtimedinsert>>
+p22
+sS'title'
+p23
+VStart
+p24
+sS'modified'
+p25
+ctime
+struct_time
+p26
+((I2015
+I10
+I2
+I12
+I44
+I17
+I4
+I275
+I1
+tp27
+(dp28
+tp29
+Rp30
+sS'tags'
+p31
+(lp32
+sS'created'
+p33
+g26
+((I2015
+I10
+I2
+I9
+I35
+I55
+I4
+I275
+I1
+tp34
+(dp35
+tp36
+Rp37
+sbsa(dp38
+g14
+I00
+sg15
+(lp39
+I10
+aI150
+asg17
+(itiddlywiki
+Tiddler
+p40
+(dp41
+g21
+VA Day in a Life
+p42
+sg23
+VStoryTitle
+p43
+sg25
+g26
+((I2015
+I10
+I2
+I11
+I38
+I57
+I4
+I275
+I1
+tp44
+(dp45
+tp46
+Rp47
+sg31
+(lp48
+sg33
+g26
+((I2015
+I10
+I2
+I9
+I35
+I55
+I4
+I275
+I1
+tp49
+(dp50
+tp51
+Rp52
+sbsa(dp53
+g14
+I00
+sg15
+(lp54
+I10
+aI290
+asg17
+(itiddlywiki
+Tiddler
+p55
+(dp56
+g21
+S'Anonymous'
+p57
+sg23
+S'StoryAuthor'
+p58
+sg25
+g26
+((I2015
+I10
+I2
+I9
+I35
+I55
+I4
+I275
+I1
+tp59
+(dp60
+tp61
+Rp62
+sg31
+(lp63
+sg33
+g62
+sbsa(dp64
+g14
+I00
+sg15
+(lp65
+I150
+aI10
+asg17
+(itiddlywiki
+Tiddler
+p66
+(dp67
+g21
+Vbody {\u000a  margin: 2%;\u000a}\u000a.revision-span-in {\u000a	opacity: 0;\u000a}\u000a.revision-span:not(.revision-span-out) {\u000a	transition: 1s; -webkit-transition: 1s;\u000a}\u000a.revision-span-out {\u000a	position:absolute;\u000a	opacity: 0;\u000a}\u000a#passages{\u000a  margin: 0;\u000a  padding: 0;\u000a  border: 0;\u000a  width:96%;\u000a  margin: auto;\u000a}\u000a.passage {\u000a  font-size:4em; \u000a  color: #888;\u000a  text-shadow: #888 0 0 0.05em;\u000a}\u000a@media screen and (max-width: 960px) {\u000a  .passage {\u000a    font-size: 4em;\u000a  }\u000a}\u000a@media screen and (max-width: 640px) {\u000a  .passage {\u000a    font-size: 3em;\u000a  }\u000a}\u000aa.internalLink, a.externalLink {\u000a  color: #eee;\u000a  text-shadow: #eee 0 0 0.07em;\u000a}\u000aa.internalLink:hover, a.externalLink:hover {\u000a  color: #fff;\u000a  text-decoration: none;\u000a  text-shadow: #fff 0 0 0.09em;\u000a}\u000a#sidebar {\u000a	display:none;\u000a}
+p68
+sg23
+Vtemplate
+p69
+sg25
+g26
+((I2015
+I10
+I2
+I9
+I46
+I19
+I4
+I275
+I1
+tp70
+(dp71
+tp72
+Rp73
+sg31
+(lp74
+Vstylesheet
+p75
+asg33
+g26
+((I2015
+I10
+I2
+I9
+I38
+I42
+I4
+I275
+I1
+tp76
+(dp77
+tp78
+Rp79
+sbsa(dp80
+g14
+I00
+sg15
+(lp81
+I150
+aI150
+asg17
+(itiddlywiki
+Tiddler
+p82
+(dp83
+g21
+V<<timedinsert 1s>>You <<endtimedinsert>><<timedinsert 3s>>slowly <<endtimedinsert>><<timedinsert 6s>>get up <<endtimedinsert>><<timedinsert 9s>>from the bed <<endtimedinsert>>\u000a\u000a<<timedinsert 11s>><<hoverreplace>>I should take the day off<<becomes>>[[Maybe a shower might wake me up|Shower]]<<endhoverreplace>><<endtimedinsert>>\u000a\u000a\u000a<<timedinsert 12s>><<hoverreplace>>It doesn't matter<<becomes>>[[Let me take a quick shower|Shower]]<<endhoverreplace>><<endtimedinsert>>\u000a\u000a\u000a<<timedinsert 13s>><<hoverreplace>>I feel a little dizzy<<becomes>>[[Take a moment|Start]]<<endhoverreplace>><<endtimedinsert>>
+p84
+sg23
+VGet up
+p85
+sg25
+g26
+((I2015
+I10
+I2
+I10
+I38
+I4
+I4
+I275
+I1
+tp86
+(dp87
+tp88
+Rp89
+sg31
+(lp90
+sg33
+g26
+((I2015
+I10
+I2
+I9
+I39
+I9
+I4
+I275
+I1
+tp91
+(dp92
+tp93
+Rp94
+sbsa(dp95
+g14
+I00
+sg15
+(lp96
+I10
+aI430
+asg17
+(itiddlywiki
+Tiddler
+p97
+(dp98
+g21
+V(function(){version.extensions.replaceMacrosCombined={major:1,minor:1,revision:7};var nullobj={handler:function(){}};function showVer(n,notrans){if(!n){return;}n.innerHTML="";\u000anew Wikifier(n,n.tweecode);n.setAttribute("data-enabled","true");n.style.display="inline";n.classList.remove("revision-span-out");if(!notrans){n.classList.add("revision-span-in");\u000aif(n.timeout){clearTimeout(n.timeout);}n.timeout=setTimeout(function(){n.classList.remove("revision-span-in");n=null;},20);}}function hideVer(n,notrans){if(!n){return;\u000a}n.setAttribute("data-enabled","false");n.classList.remove("revision-span-in");if(n.timeout){clearTimeout(n.timeout);}if(!notrans){n.classList.add("revision-span-out");\u000an.timeout=setTimeout(function(){if(n.getAttribute("data-enabled")=="false"){n.classList.remove("revision-span-out");n.style.display="none";n.innerHTML="";}n=null;\u000a},1000);}else{n.style.display="none";n.innerHTML="";n=null;}}function tagcontents(b,starttags,desttags,endtags,k){var l=0,c="",tg,a,i;function tagfound(i,e,endtag){for(var j=0;\u000aj<e.length;j++){if(a.indexOf("<<"+e[j]+(endtag?">>":""),i)==i){return e[j];}}}a=b.source.slice(k);for(i=0;i<a.length;i++){if(tg=tagfound(i,starttags)){l++;}else{if((tg=tagfound(i,desttags,true))&&l==0){b.nextMatch=k+i+tg.length+4;\u000areturn[c,tg];}else{if(tg=tagfound(i,endtags,true)){l--;if(l<0){return null;}}}}c+=a.charAt(i);}return null;}var begintags=[];var endtags=[];function revisionSpanHandler(g,e,f,b){var k=b.source.indexOf(">>",b.matchStart)+2,vsns=[],vtype=e,flen=f.length,becomes,c,cn,m,h,vsn;\u000afunction mkspan(vtype){h=insertElement(m,"span",null,"revision-span "+vtype);h.setAttribute("data-enabled",false);h.style.display="none";h.tweecode="";return h;}if(this.shorthand&&flen){while(f.length>0){vsns.push([f.shift(),(this.flavour=="insert"?"gains":"becomes")]);\u000a}}else{if(this.flavour=="insert"||(this.flavour=="continue"&&this.trigger=="time")){vsns.push(["","becomes"]);}}if(this.flavour=="continue"&&flen){b.nextMatch=k+b.source.slice(k).length;\u000avsns.push([b.source.slice(k),vtype]);}else{becomes=["becomes","gains"];c=tagcontents(b,begintags,becomes.concat(endtags),endtags,k);if(c&&endtags.indexOf(c[1])==-1){while(c){vsns.push(c);\u000ac=tagcontents(b,begintags,becomes,endtags,b.nextMatch);}c=tagcontents(b,begintags,["end"+e],endtags,b.nextMatch);}if(!c){throwError(g,"can't find matching end"+e);\u000areturn;}vsns.push(c);if(this.flavour=="continue"){k=b.nextMatch;b.nextMatch=k+b.source.slice(k).length;vsns.push([b.source.slice(k),""]);}}if(this.flavour=="remove"){vsns.push(["","becomes"]);\u000a}cn=0;m=insertElement(g,"span",null,e);m.setAttribute("data-flavour",this.flavour);h=mkspan("initial");vsn=vsns.shift();h.tweecode=vsn[0];showVer(h,true);while(vsns.length>0){if(vsn){vtype=vsn[1];\u000a}vsn=vsns.shift();h=mkspan(vtype);h.tweecode=vsn[0];}if(typeof this.setup=="function"){this.setup(m,g,f);}}function quantity(m){return(m.children.length-1)+(m.getAttribute("data-flavour")=="remove");\u000a}function revisionSetup(m,g,f){m.className+=" "+f[0].replace(" ","_");}function keySetup(m,g,f){var key=f[0];m.setEventListener("keydown",function l(e){var done=!revise("revise",m);\u000aif(done){m.removeEventListener("keydown",l);}});}function timeSetup(m,g,f){function cssTimeUnit(s){if(typeof s=="string"){if(s.slice(-2).toLowerCase()=="ms"){return Number(s.slice(0,-2))||0;\u000a}else{if(s.slice(-1).toLowerCase()=="s"){return Number(s.slice(0,-1))*1000||0;}}}throwError(g,s+" isn't a CSS time unit");return 0;}var tm=cssTimeUnit(f[0]);var s=state.history[0].passage.title;\u000asetTimeout(function timefn(){if(state.history[0].passage.title==s){var done=!revise("revise",m);if(!done){setTimeout(timefn,tm);}}},tm);}function hoverSetup(m){var fn,noMouseEnter=(document.head.onmouseenter!==null),m1=m.children[0],m2=m.children[1],gains=m2.className.indexOf("gains")>-1;\u000aif(!m1||!m2){return;}m1.onmouseenter=function(e){var efp=document.elementFromPoint(e.clientX,e.clientY);while(efp&&efp!==this){efp=efp.parentNode;}if(!efp){return;\u000a}if(this.getAttribute("data-enabled")!="false"){revise("revise",this.parentNode);}};m2.onmouseleave=function(e){var efp=document.elementFromPoint(e.clientX,e.clientY);\u000awhile(efp&&efp!==this){efp=efp.parentNode;}if(efp){return;}if(this.getAttribute("data-enabled")!="false"){revise("revert",this.parentNode);}};if(gains){m1.onmouseleave=m2.onmouseleave;\u000a}if(noMouseEnter){fn=function(n){return function(e){if(!event.relatedTarget||(event.relatedTarget!=this&&!(this.compareDocumentPosition(event.relatedTarget)&Node.DOCUMENT_POSITION_CONTAINED_BY))){this[n]();\u000a}};};m1.onmouseover=fn("onmouseenter");m2.onmouseout=fn("onmouseleave");if(gains){m1.onmouseout=m2.onmouseout;}}m=null;}function mouseSetup(m){var evt=(document.head.onmouseenter===null?"onmouseenter":"onmouseover");\u000am[evt]=function(){var done=!revise("revise",this);if(done){this[evt]=null;}};m=null;}function linkSetup(m,g,f){var l=Wikifier.createInternalLink(),p=m.parentNode;\u000al.className="internalLink replaceLink";p.insertBefore(l,m);l.insertBefore(m,null);l.onclick=function(){var p,done=false;if(m&&m.parentNode==this){done=!revise("revise",m);\u000ascrollWindowTo(m);}if(done){this.parentNode.insertBefore(m,this);this.parentNode.removeChild(this);}};l=null;}function visitedSetup(m,g,f){var i,done,shv=state.history[0].variables,os="once seen",d=(m.firstChild&&(this.flavour=="insert"?m.firstChild.nextSibling:m.firstChild).tweecode);\u000ashv[os]=shv[os]||{};if(d&&!shv[os].hasOwnProperty(d)){shv[os][d]=1;}else{for(i=shv[os][d];i>0&&!done;i--){done=!revise("revise",m,true);}if(shv[os].hasOwnProperty(d)){shv[os][d]+=1;\u000a}}}[{name:"insert",flavour:"insert",trigger:"link",setup:linkSetup},{name:"timedinsert",flavour:"insert",trigger:"time",setup:timeSetup},{name:"insertion",flavour:"insert",trigger:"revisemacro",setup:revisionSetup},{name:"later",flavour:"insert",trigger:"visited",setup:visitedSetup},{name:"keyinsert",flavour:"insert",trigger:"key",setup:keySetup},{name:"replace",flavour:"replace",trigger:"link",setup:linkSetup},{name:"timedreplace",flavour:"replace",trigger:"time",setup:timeSetup},{name:"mousereplace",flavour:"replace",trigger:"mouse",setup:mouseSetup},{name:"hoverreplace",flavour:"replace",trigger:"hover",setup:hoverSetup},{name:"revision",flavour:"replace",trigger:"revisemacro",setup:revisionSetup},{name:"keyreplace",flavour:"replace",trigger:"key",setup:keySetup},{name:"timedremove",flavour:"remove",trigger:"time",setup:timeSetup},{name:"mouseremove",flavour:"remove",trigger:"mouse",setup:mouseSetup},{name:"hoverremove",flavour:"remove",trigger:"hover",setup:hoverSetup},{name:"removal",flavour:"remove",trigger:"revisemacro",setup:revisionSetup},{name:"once",flavour:"remove",trigger:"visited",setup:visitedSetup},{name:"keyremove",flavour:"remove",trigger:"key",setup:keySetup},{name:"continue",flavour:"continue",trigger:"link",setup:linkSetup},{name:"timedcontinue",flavour:"continue",trigger:"time",setup:timeSetup},{name:"mousecontinue",flavour:"continue",trigger:"mouse",setup:mouseSetup},{name:"keycontinue",flavour:"continue",trigger:"key",setup:keySetup},{name:"cycle",flavour:"cycle",trigger:"revisemacro",setup:revisionSetup},{name:"mousecycle",flavour:"cycle",trigger:"mouse",setup:mouseSetup},{name:"timedcycle",flavour:"cycle",trigger:"time",setup:timeSetup},{name:"keycycle",flavour:"replace",trigger:"key",setup:keySetup}].forEach(function(e){e.handler=revisionSpanHandler;\u000ae.shorthand=(["link","mouse","hover"].indexOf(e.trigger)>-1);macros[e.name]=e;macros["end"+e.name]=nullobj;begintags.push(e.name);endtags.push("end"+e.name);});function insideDepartingSpan(elem){var r=elem.parentNode;\u000awhile(!r.classList.contains("passage")){if(r.classList.contains("revision-span-out")){return true;}r=r.parentNode;}}function reviseAll(rt,rname){var rall=document.querySelectorAll(".passage [data-flavour]."+rname),ret=false;\u000afor(var i=0;i<rall.length;i++){if(!insideDepartingSpan(rall[i])){ret=revise(rt,rall[i])||ret;}}return ret;}function revise(rt,r,notrans){var ind2,curr,next,ind=-1,rev=(rt=="revert"),rnd=(rt.indexOf("random")>-1),fl=r.getAttribute("data-flavour"),rc=r.childNodes,cyc=(fl=="cycle"),rcl=rc.length-1;\u000afunction doToGainerSpans(n,fn){for(var k=n-1;k>=0;k--){if(rc[k+1].classList.contains("gains")){fn(rc[k],notrans);}else{break;}}}for(var k=0;k<=rcl;k++){if(rc[k].getAttribute("data-enabled")=="true"){ind=k;\u000a}}if(rev){ind-=1;}curr=(ind>=0?rc[ind]:(cyc?rc[rcl]:null));ind2=ind;if(rnd){ind2=(ind+(Math.floor(Math.random()*rcl)))%rcl;}next=((ind2<rcl)?rc[ind2+1]:(cyc?rc[0]:null));\u000avar docurr=(rev?showVer:hideVer);var donext=(rev?hideVer:showVer);var currfn=function(){if(!(next&&next.classList.contains("gains"))||rnd){docurr(curr,notrans);doToGainerSpans(ind,docurr,notrans);\u000a}};var nextfn=function(){donext(next,notrans);if(rnd){doToGainerSpans(ind2+1,donext,notrans);}};if(!rev){currfn();nextfn();}else{nextfn();currfn();}return(cyc?true:(rev?(ind>0):(ind2<rcl-1)));\u000a}macros.revert=macros.revise=macros.randomise=macros.randomize={handler:function(a,b,c){var l,rev,rname;function disableLink(l){l.style.display="none";}function enableLink(l){l.style.display="inline";\u000a}function updateLink(l){if(l.className.indexOf("random")>-1){enableLink(l);return;}var rall=document.querySelectorAll(".passage [data-flavour]."+rname),cannext,canprev,i,ind,r,fl;\u000afor(i=0;i<rall.length;i++){r=rall[i],fl=r.getAttribute("data-flavour");if(insideDepartingSpan(r)){continue;}if(fl=="cycle"){cannext=canprev=true;}else{if(r.firstChild.getAttribute("data-enabled")==!1+""){canprev=true;\u000a}if(r.lastChild.getAttribute("data-enabled")==!1+""){cannext=true;}}}var can=(l.classList.contains("revert")?canprev:cannext);(can?enableLink:disableLink)(l);}function toggleText(w){w.classList.toggle(rl+"Enabled");\u000aw.classList.toggle(rl+"Disabled");w.style.display=((w.style.display=="none")?"inline":"none");}var rl="reviseLink";if(c.length<2){throwError(a,b+" macro needs 2 parameters");\u000areturn;}rname=c.shift().replace(" ","_");l=Wikifier.createInternalLink(a,null);l.className="internalLink "+rl+" "+rl+"_"+rname+" "+b;var v="";var end=false;var out=false;\u000aif(c.length>1&&c[0][0]=="$"){v=c[0].slice(1);c.shift();}switch(c[c.length-1]){case"end":end=true;c.pop();break;case"out":out=true;c.pop();break;}var h=state.history[0].variables;\u000afor(var i=0;i<c.length;i++){var on=(i==Math.max(c.indexOf(h[v]),0));var d=insertElement(null,"span",null,rl+((on)?"En":"Dis")+"abled");if(on){h[v]=c[i];l.setAttribute("data-cycle",i);\u000a}else{d.style.display="none";}insertText(d,c[i]);l.appendChild(d);}l.onclick=function(){reviseAll(b,rname);var t=this.childNodes,u=this.getAttribute("data-cycle")-0,m=t.length,n,lall,i;\u000aif((end||out)&&u>=m-(end?2:1)){if(end){n=this.removeChild(t[u+1]||t[u]);n.className=rl+"End";n.style.display="inline";this.parentNode.replaceChild(n,this);}else{this.parentNode.removeChild(this);\u000areturn;}}else{toggleText(t[u]);u=(u+1)%m;if(v){h[v]=c[u];}toggleText(t[u]);this.setAttribute("data-cycle",u);}lall=document.getElementsByClassName(rl+"_"+rname);\u000afor(i=0;i<lall.length;i++){updateLink(lall[i]);}};disableLink(l);setTimeout((function(l){return function(){updateLink(l);};}(l)),1);l=null;}};macros.mouserevise=macros.hoverrevise={handler:function(a,b,c,d){var endtags=["end"+b],evt=(window.onmouseenter===null?"onmouseenter":"onmouseover"),t=tagcontents(d,[b],endtags,endtags,d.source.indexOf(">>",d.matchStart)+2);\u000aif(t){var rname=c[0].replace(" ","_"),h=insertElement(a,"span",null,"hoverrevise hoverrevise_"+rname),f=function(){var done=!reviseAll("revise",rname);if(b!="hoverrevise"&&done){this[evt]=null;\u000a}};new Wikifier(h,t[0]);if(b=="hoverrevise"){h.onmouseover=f;h.onmouseout=function(){reviseAll("revert",rname);};}else{h[evt]=f;}h=null;}}};macros.instantrevise={handler:function(a,b,c,d){reviseAll("revise",c[0].replace(" ","_"));\u000a}};macros.endmouserevise=nullobj;macros.endhoverrevise=nullobj;}());
+p99
+sg23
+Vtimedreplace
+p100
+sg25
+g26
+((I2015
+I10
+I2
+I9
+I41
+I14
+I4
+I275
+I1
+tp101
+(dp102
+tp103
+Rp104
+sg31
+(lp105
+Vscript
+p106
+asg33
+g26
+((I2015
+I10
+I2
+I9
+I41
+I7
+I4
+I275
+I1
+tp107
+(dp108
+tp109
+Rp110
+sbsa(dp111
+g14
+I00
+sg15
+(lp112
+I150
+aI290
+asg17
+(itiddlywiki
+Tiddler
+p113
+(dp114
+g21
+V<<print either("<<hoverreplace>>The water is too hot. <<becomes>>The water is too cold.<<endhoverreplace>>","<<hoverreplace>>This soap makes me smell worse. <<becomes>>This soap isn't enough.<<endhoverreplace>>","<<hoverreplace>>My skin is dry today.<<becomes>>My skin will be dry tomorrow.<<endhoverreplace>>")>>\u000a\u000a<<if visited() <=5>>\u000a<<timedinsert 1s>><<print either("[[Scrub your greasy toes|Shower]]","[[Wash your oily hair|Shower]]","[[Let hot water hit your cold face|Shower]]")>><<endtimedinsert>>\u000a<<endif>>\u000a<<if visited() >5>>\u000a[[Get out of the shower|Breakfast]]\u000a<<endif>>\u000a\u000a
+p115
+sg23
+VShower
+p116
+sg25
+g26
+((I2015
+I10
+I2
+I10
+I37
+I18
+I4
+I275
+I1
+tp117
+(dp118
+tp119
+Rp120
+sg31
+(lp121
+sg33
+g26
+((I2015
+I10
+I2
+I10
+I18
+I56
+I4
+I275
+I1
+tp122
+(dp123
+tp124
+Rp125
+sbsa(dp126
+g14
+I00
+sg15
+(lp127
+I290
+aI150
+asg17
+(itiddlywiki
+Tiddler
+p128
+(dp129
+g21
+V<<mousecontinue>>You enter the living room.<<becomes>>It's empty.<<endmousecontinue>>\u000a\u000a<<mousecontinue>>You enter the kitchen.<<becomes>>It's empty.<<endmousecontinue>>\u000a\u000a<<mousecontinue>>You open the fridge.<<becomes>> Milk. Honey. Cereal. Oats.<<becomes>>The fridge becomes empty.<<<<endmousecontinue>>\u000a\u000a<<mousecontinue>>You look around.<<becomes>>Everything is quiet.<<becomes>>You don't hear anyone.<<becomes>>You don't see anyone.<<becomes>>You are eating.<<becomes>> You feel empty.<<endmousecontinue>>\u000a\u000a<<mousecontinue>>The cereal is old and difficult to swallow.<<becomes>>You feel tired.<<becomes>>You look at your bowl.<<becomes>> It's in your milk. <<becomes>> It's in your honey. <<becomes>>It's empty now.<<endmousecontinue>>\u000a\u000a<<hoverreplace>>[[Time to leave for work|LeaveHouse]]<<becomes>>[[Guess I have to leave now|LeaveHouse]]<<endhoverreplace>>\u000a\u000a\u000a\u000a
+p130
+sg23
+VBreakfast
+p131
+sg25
+g26
+((I2015
+I10
+I2
+I10
+I50
+I23
+I4
+I275
+I1
+tp132
+(dp133
+tp134
+Rp135
+sg31
+(lp136
+sg33
+g26
+((I2015
+I10
+I2
+I10
+I34
+I9
+I4
+I275
+I1
+tp137
+(dp138
+tp139
+Rp140
+sbsa(dp141
+g14
+I00
+sg15
+(lp142
+I290
+aI10
+asg17
+(itiddlywiki
+Tiddler
+p143
+(dp144
+g21
+V<<timedinsert 1s>>You lock your house and walk towards the subway.<<endtimedinsert>>\u000a\u000a<<timedinsert 3s>>You look down while walking. You observe nothing of interest.<<endtimedinsert>>\u000a\u000a<<timedinsert 5s>> <<mousecontinue>>You hear a familiar voice.<<becomes>>You ignore them. <<becomes>> The voice dies down. <<endmousecontinue>><<endtimedinsert>>\u000a\u000a<<timedinsert 10s>> <<mousecontinue>>You swipe the metrocard. <<becomes>> INSUFFICIENT FARE. <<becomes>> You fill the metrocard with minimum fare. <<becomes>> You try forgetting about the numbers in your bank account. <<becomes>>  You fail miserably. <<becomes>> You start thinking about all the ways you can save money before the end of the month. <<becomes>> You cannot think of anything. <<becomes>>You wait for the M train.<<endmousecontinue>><<endtimedinsert>>\u000a\u000a<<timedinsert 45s>>[[Get into the M train|MTrain]]<<endtimedinsert>>\u000a\u000a\u000a
+p145
+sg23
+VLeaveHouse
+p146
+sg25
+g26
+((I2015
+I10
+I2
+I11
+I45
+I26
+I4
+I275
+I1
+tp147
+(dp148
+tp149
+Rp150
+sg31
+(lp151
+sg33
+g26
+((I2015
+I10
+I2
+I10
+I48
+I5
+I4
+I275
+I1
+tp152
+(dp153
+tp154
+Rp155
+sbsa(dp156
+g14
+I00
+sg15
+(lp157
+I430
+aI10
+asg17
+(itiddlywiki
+Tiddler
+p158
+(dp159
+g21
+V<<timedremove 20s>><<hoverreplace>>Next Stop<<becomes>>Myrtle-Broadway<<endhoverreplace>><<endtimedremove>>\u000a\u000a<<hoverreplace>>You feel empty.<<becomes>> You look at the map. <<endhoverreplace>>\u000a\u000a<<hoverreplace>> You feel empty. <<becomes>> You look down at your shoes. <<endhoverreplace>>\u000a\u000a<<timedinsert 15s>> This is Myrtle-Broadway. <<endtimedinsert>>\u000a\u000a<<timedinsert 16s>><<mousecontinue>>Your eye gazes outside on the platform. <<becomes>> Bodies of people flicker and get lost in the speed <<becomes>> You think you see some faces <<becomes>> but you are probably wrong. <<becomes>> Probably.<<endmousecontinue>> <<endtimedinsert>>\u000a\u000a<<timedinsert 20s>> [[You plug your ears with music|AtWork]] <<endtimedinsert>>
+p160
+sg23
+VMTrain
+p161
+sg25
+g26
+((I2015
+I10
+I2
+I11
+I47
+I32
+I4
+I275
+I1
+tp162
+(dp163
+tp164
+Rp165
+sg31
+(lp166
+sg33
+g26
+((I2015
+I10
+I2
+I10
+I58
+I55
+I4
+I275
+I1
+tp167
+(dp168
+tp169
+Rp170
+sbsa(dp171
+g14
+I00
+sg15
+(lp172
+I430
+aI150
+asg17
+(itiddlywiki
+Tiddler
+p173
+(dp174
+g21
+V<<mousecontinue>>You are at work. <<becomes>>You are at work.\u000a\u000a<<becomes>>You are working. <<becomes>>You are doing something you enjoy. <<becomes>>You think.\u000a\u000a<<becomes>>You look at your portfolio.\u000a\u000a<<becomes>>It's full of papers. <<becomes>>It's empty. <<becomes>> Empty.\u000a<<becomes>>It's full of blank sheets.\u000a\u000a<<becomes>><<hoverreplace>>People throw friendly smiles at you.<<becomes>>You s\u0321\u034f\u034f\u032b\u0329\u031c\u034e\u032a\u0349\u031f\u035a\u0324\u0329\u031f\u035a\u0319\u0353\u032a\u0319\u0359\u031em\u035d\u0489\u0337\u0318\u0332\u0326\u033b\u032a\u031f\u0323\u033c\u035a\u032a\u0318i\u0328\u0348\u034d\u0333\u0332l\u0335\u0315\u0362\u031b\u0322\u0348\u0324\u033b\u0355\u033c\u032be\u0489\u0323\u0330\u032d.<<endhoverreplace>><<endmousecontinue>>\u000a\u000a<<timedinsert 10s>>You watch the clock go by. <<endtimedinsert>>\u000a\u000a<<timedinsert 15s>> <<hoverreplace>>[[Time to go back home|BackHome]]<<becomes>>[[Guess it's time to go back|BackHome]]<<endhoverreplace>><<endtimedinsert>>
+p175
+sg23
+VAtWork
+p176
+sg25
+g26
+((I2015
+I10
+I2
+I11
+I16
+I42
+I4
+I275
+I1
+tp177
+(dp178
+tp179
+Rp180
+sg31
+(lp181
+sg33
+g26
+((I2015
+I10
+I2
+I11
+I5
+I58
+I4
+I275
+I1
+tp182
+(dp183
+tp184
+Rp185
+sbsa(dp186
+g14
+I00
+sg15
+(lp187
+I430
+aI290
+asg17
+(itiddlywiki
+Tiddler
+p188
+(dp189
+g21
+V<<mousecontinue>>You read the news today.\u000a\u000a<<becomes>>About a lucky man who made the grave.\u000a\u000a<<becomes>>He blew his mind out in a car. \u000a\u000a<<becomes>>He didn't notice the gun was empty.\u000a\u000a<<becomes>>A crowd of people stood and stared.\u000a\u000a<<becomes>>They couldn't see his face.\u000a\u000a<<becomes>>You had to l\u0360\u0328\u0362\u033b\u0319\u032b\u031f\u0318\u0345\u033ba\u0328\u0336\u0354\u0353\u0320\u031e\u031c\u032e\u0318\u031fu\u035d\u035c\u0336\u034d\u032b\u0326\u0333\u034e\u032eg\u0360\u0321\u034d\u033c\u0326\u0339\u032fh\u0322\u0322\u0333\u0349\u0347\u0359\u033c\u0332\u0356\u0330.\u031b\u0315\u0327\u0321\u032c\u0333\u0319\u032c\u033b\u0355\u0331\u0339\u0345\u0323\u0320\u0355 \u000a<<becomes>>You saw the photograph.<<endmousecontinue>>\u000a\u000a<<timedinsert 10s>><<hoverreplace>>You got a new text.<<becomes>><font color="#eee">[[It was from her.|MeetingHer]]</font><<endhoverreplace>> <<endtimedinsert>>
+p190
+sg23
+VBackHome
+p191
+sg25
+g26
+((I2015
+I10
+I2
+I11
+I49
+I3
+I4
+I275
+I1
+tp192
+(dp193
+tp194
+Rp195
+sg31
+(lp196
+sg33
+g26
+((I2015
+I10
+I2
+I11
+I16
+I48
+I4
+I275
+I1
+tp197
+(dp198
+tp199
+Rp200
+sbsa(dp201
+g14
+I00
+sg15
+(lp202
+I430
+aI430
+asg17
+(itiddlywiki
+Tiddler
+p203
+(dp204
+g21
+V<<mousecontinue>><font size=30 color="#eee"><b>You see her.</b></font><<becomes>><font size=26 color="#eee"> <b>You hug her.</b></font>\u000a<<becomes>><font size=20 color="#eee"><b>You feel her face. </b></font>\u000a<<becomes>><font size=14 color="#eee">You are kissing her.</font>\u000a<<becomes>><font size=10 color="grey">You are holding her. </font>\u000a<<becomes>><font size=6 color="grey">You are with her.</font>\u000a<<becomes>><font size=4 color="grey">You are with yourself. </font><<endmousecontinue>>\u000a\u000a<<timedinsert 10s>> [[You go back home|HomeAgain]] <<endtimedinsert>>
+p205
+sg23
+VMeetingHer
+p206
+sg25
+g26
+((I2015
+I10
+I2
+I11
+I41
+I10
+I4
+I275
+I1
+tp207
+(dp208
+tp209
+Rp210
+sg31
+(lp211
+sg33
+g26
+((I2015
+I10
+I2
+I11
+I23
+I49
+I4
+I275
+I1
+tp212
+(dp213
+tp214
+Rp215
+sbsa(dp216
+g14
+I00
+sg15
+(lp217
+I290
+aI430
+asg17
+(itiddlywiki
+Tiddler
+p218
+(dp219
+g21
+V<<hoverreplace>>Your roomie's dog barks at you. <<becomes>>You don't respond.<<endhoverreplace>>\u000a\u000a<<timedinsert 3s>><<mousecontinue>>Your roomie smiles asking you how your day was. <<becomes>><font size=4 color="grey">It was fine.</font><<becomes>><font size=14 color="white"> "Do you want to join us and smoke a spliff?" </font> <<becomes>> <font size=4 color="grey"> No. </font><<endmousecontinue>><<endtimedinsert>>\u000a\u000a<<timedinsert 10s>> [[Time to go to sleep I guess|TrySleep]]<<endtimedinsert>>
+p220
+sg23
+VHomeAgain
+p221
+sg25
+g26
+((I2015
+I10
+I2
+I12
+I37
+I17
+I4
+I275
+I1
+tp222
+(dp223
+tp224
+Rp225
+sg31
+(lp226
+sg33
+g26
+((I2015
+I10
+I2
+I11
+I33
+I36
+I4
+I275
+I1
+tp227
+(dp228
+tp229
+Rp230
+sbsa(dp231
+g14
+I00
+sg15
+(lp232
+I290
+aI290
+asg17
+(itiddlywiki
+Tiddler
+p233
+(dp234
+g21
+V<<timedinsert 2s>><<mousecontinue>>You didn't get any work done today.<<becomes>>You feel emptier.<<endmousecontinue>><<endtimedinsert>>\u000a\u000a<<timedinsert 5s>><<mousecontinue>>You feel like you were rude to everyone today.<<becomes>>You are where you deserve to be.<<endmousecontinue>><<endtimedinsert>>\u000a\u000a<<timedinsert 7s>><<mousecontinue>>"You are going places", they say.<<becomes>>You are going nowhere.<<endmousecontinue>><<endtimedinsert>>\u000a\u000a<<timedinsert 11s>><<mousecontinue>>You will always be here.<<becomes>>Somewhere around here.<<endmousecontinue>><<endtimedinsert>>\u000a\u000a<<timedinsert 13s>>[[Your eyes finally close.|Start]]<<endtimedinsert>>\u000a\u000a\u000a
+p235
+sg23
+VTrySleep
+p236
+sg25
+g26
+((I2015
+I10
+I2
+I11
+I59
+I34
+I4
+I275
+I1
+tp237
+(dp238
+tp239
+Rp240
+sg31
+(lp241
+sg33
+g26
+((I2015
+I10
+I2
+I11
+I51
+I43
+I4
+I275
+I1
+tp242
+(dp243
+tp244
+Rp245
+sbsasS'scale'
+p246
+I1
+sS'snapping'
+p247
+I01
+ss.
